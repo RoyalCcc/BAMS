@@ -1,7 +1,6 @@
 # BAMS
 
-This repository contains reference implementation for BAMS, **Multi-agent Cooperative Games Using Belief Map Assisted
-Training**.
+This repository contains reference implementation for BAMS paper (accepted to ECAI 2023), **Multi-agent Cooperative Games Using Belief Map Assisted Training**. Available at
 
 ## Cite
 
@@ -24,7 +23,7 @@ If you use this code or BAMS in your work, please cite the following:
 
 ## Environment Installation
 
-First, clone the repo and install ic3net-envs which contains implementation for Predator-Prey and Traffic-Junction
+First, clone the repo and install ic3net-envs which contains implementation for Predator-Prey
 
 ```
 git clone https://github.com/qhuang18-97/BAMS.git
@@ -33,7 +32,7 @@ python setup.py develop
 ```
 
 
-Next, we need to install dependencies for IC3Net including PyTorch. For doing that run:
+Next, we need to install dependencies for BAMS including PyTorch. For doing that run:
 
 ```
 pip install -r requirements.txt
